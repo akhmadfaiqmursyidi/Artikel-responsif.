@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artikel Responsif | Portal Berita Kampus</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Portal Berita Kampus</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Kategori</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- Artikel Berita -->
+    <article>
+      <h2>Peresmian Kampus Universitas Harkat Negeri</h2>
+      <p><em>Ditulis oleh Akhmad Faiq Mursyidi | 04 Oktober 2025</em></p>
+
+      <!-- Gambar Utama dengan srcset + sizes -->
+      <figure>
+        <img 
+        src="gbr utama besar.jpg"
+        srcset="gbr utama kecil.jpg 600w, gbr utama besar.jpg 1200w"
+          sizes="(max-width:600px) 100vw, 800px"
+          alt="Foto Kampus Universitas Harkat Negeri dengan logo baru di depan gedung"
+          width="1200" height="600"
+          loading="eager"
+          >
+        <figcaption>Gedung Kampus Universitas Harkat Negeri Dengan Logo bari di depan Gedung.</figcaption>
+      </figure>
+
+      <p>
+        Universitas Harkat Negeri Resmi berdiri sebagai Penggabungan Antara
+        <strong>Politeknik Harapan Bersama Kota Tegal </strong> dan <strong>
+         STMIK YMI Kota Tegal</strong>. Peresmian Universitas Harkat Negeri ini
+         menjadi tonggak sejarah baru bagi dunia pendidikan tinggi di daerah Kota Tegal
+         , Kabupaten Tegal, Brebes, dan sekitarnya.
+      </p>
+      <p>
+        Dengan status sebagai Universitas Harkat Negeri, Kampus ini diharapakan dapat membuka
+        banyak peluang yang luas bagi generasi muda untuk menempuh pendidikan tinggi.
+        Fakultas-fakultas yang ada di Universitas Harkat Negeri menawarkan berbagai program studi
+        yang relevan dengan kebutuhan industri dan perkembangan teknologi saat ini. Dan Fakultas
+        yang ada di Universitas Harkat Negeri antara lain Fakultas Teknik Informatika, Fakultas Ekonomi,
+        Teknik, Falkutas Ilmu komputer, Fakultas Kesehatan, dan Fakultas Ilmu Sosial dan Ilmu Politik.
+      </p>
+        <p>
+            Peresmian ini dihadiri oleh berbagai tokoh penting, termasuk pejabat pemerintah daerah, Najwa 
+            Shihab,akademisi, dan masyarakat umum. Dalam sambutannya, Rektor Universitas Harkat Negeri
+            menekankan pentingnya pendidikan tinggi dalam membentuk masa depan bangsa.
+            Beliau juga menyampaikan komitmen universitas untuk memberikan pendidikan berkualitas
+            yang dapat bersaing di tingkat nasional maupun internasional.
+        </p>
+        <p>
+            Selain itu, Universitas Harkat Negeri juga berencana untuk menjalin kerja sama dengan berbagai
+            institusi pendidikan dan industri guna meningkatkan kualitas pembelajaran dan peluang kerja bagi
+            lulusannya. Dengan adanya Universitas Harkat Negeri, diharapkan dapat menciptakan lingkungan akademik
+            yang inovatif dan mendukung pengembangan potensi mahasiswa secara maksimal.
+        </p>
+        <p>
+            Peresmian Universitas Harkat Negeri ini menjadi langkah awal yang menjanjikan bagi dunia pendidikan
+            di Kota Tegal dan sekitarnya. Dengan semangat baru dan visi yang jelas, diharapkan universitas ini
+            dapat memberikan kontribusi positif bagi kemajuan bangsa melalui pendidikan tinggi yang berkualitas.
+        </p>
+    </article>
+
+    <!-- Galeri Foto Terkait -->
+    <section aria-labelledby="galeri-title">
+      <h2 id="galeri-title">Galeri Foto Terkait</h2>
+      <div class="galeri">
+        <figure>
+          <img src="gbr utama kecil.jpg" alt=" Gedung Kampus Universitas Harkat Negeri Kampus Mataram" 
+          width="400" height="300" loading="lazy">
+          <figcaption> Gedung Kampus Universitas Harkat Negeri Kampus Mataram.</figcaption>
+        </figure>
+        <figure>
+          <img src="gambar-1.png" alt="Logo Universitas Harkat Negeri" 
+          width="400" height="300" loading="lazy">
+          <figcaption>Logo Universitas Harkat Negeri.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Konten Pendamping -->
+    <aside>
+      <h3>Baca Juga</h3>
+      <ul>
+        <li><a href="#">akademik</a></li>
+        <li><a href="#">Falkutas dan Program stud</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; <time datetime="2025">2025</time> Portal Berita Kampus. Semua Hak Dilindungi. | 
+       <a href="#top">Kembali ke atas</a>
+    </p>
+  </footer>
+  
+  <style>
+      /* Reset & dasar */
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          line-height: 1.6;
+          background: #f9fafb;
+          color: #1e293b;
+        }
+        h1, h2, h3 { margin-top: 0; }
+        
+            /* Header */
+            header {
+                background: #8b1d1d;
+              color: white;
+              padding: 1rem;
+              position: sticky;
+              top: 0;
+              z-index: 10;
+            }
+            header h1 { margin: 0; font-size: 1.5rem; }
+            nav ul {
+                list-style: none;
+              margin: 0; padding: 0;
+              display: flex; gap: 1rem;
+            }
+            nav a {
+                color: white;
+              text-decoration: none;
+              font-weight: bold;
+            }
+        
+            /* Main content */
+            main {
+              max-width: 900px;
+              margin: 2rem auto;
+              padding: 0 1rem;
+            }
+            article h2 {
+                color: #9f2626;
+                margin-bottom: .3rem;
+            }
+            article p em {
+                color: #64748b;
+            }
+            
+            /* Gambar + caption */
+            figure {
+                margin: 1rem 0;
+            }
+            figure img {
+                max-width: 100%;
+                border-radius: 8px;
+                box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+            }
+            figcaption {
+                font-size: 0.9rem;
+                color: #475569;
+                text-align: center;
+                margin-top: .3rem;
+            }
+            
+            /* Galeri */
+            section {
+                margin-top: 2rem;
+            }
+            .galeri {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+                gap: 1rem;
+            }
+            
+            /* Aside */
+            aside {
+              background: #e2e8f0;
+              padding: 1rem;
+              border-radius: 8px;
+              margin: 2rem 0;
+            }
+            aside h3 {
+                margin-top: 0;
+            }
+            
+            /* Footer */
+            footer {
+                text-align: center;
+                background: #0f172a;
+                color: white;
+                padding: 1rem;
+                margin-top: 2rem;
+            }
+            footer a { color: #38bdf8; text-decoration: none; }
+            </style>
+    </body>
+ </html>
